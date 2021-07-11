@@ -1,0 +1,26 @@
+
+/* .row{
+    padding:20px;
+} */
+
+.col-sm-3{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgba(128, 128, 128, 0.185);
+    border-radius: 10px;
+    margin:5px;
+    height:20em;
+}
+.home{
+  border-radius: 10px;
+  padding: 1.25em;
+}
+.home-btn{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 1em;
+
+}
+.home img{
+  margin-top: 1.5em;
+}
