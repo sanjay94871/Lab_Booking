@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const user = require('./routes/user');
-const books = require('./routes/books');
+const user = require('./Routes/user');
+const books = require('./Routes/books');
 const cors = require('cors');
 
 
