@@ -37,7 +37,7 @@ function Card(props){
                   var yyyy = today.getFullYear();
                   today.setDate(dd+2)
                   var maxdd=today.getDate()
-                  var maxmm=today.toLocaleDateString()[0]
+                  var maxmm=today.getMonth()+1
                   if(dd<10)
                     dd='0'+dd
                   if(maxdd<10) 
